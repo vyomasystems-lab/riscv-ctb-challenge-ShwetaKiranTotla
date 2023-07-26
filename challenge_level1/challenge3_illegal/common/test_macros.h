@@ -736,12 +736,12 @@ test_ ## testnum: \
 # Pass and fail code (assumes test num is in TESTNUM)
 #-----------------------------------------------------------------------
 
-#define TEST_PASSFAIL \
-        bne x0, TESTNUM, pass; \
-fail: \
-        RVTEST_FAIL; \
-pass: \
-        RVTEST_PASS \
+#define TEST_PASSFAIL 
+        bne x0, TESTNUM, pass; 
+fail: 
+        RVTEST_FAIL; 
+pass: 
+        RVTEST_PASS 
 
 
 #-----------------------------------------------------------------------
