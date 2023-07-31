@@ -23,5 +23,4 @@ The `continue_test` label can be used to perform further test instructions or ad
 The test can then continue running normally, and in case of a failure, it can be handled in the `fail` section.
 
 The `illegal_instruction` label must be replaced with a legal instruction or a sequence of instructions that will not cause an illegal exception.
-![c1_3_bug_fixed](https://github.com/vyomasystems-lab/riscv-ctb-challenge-ShwetaKiranTotla/assets/109335487/2675b564-a394-4d7c-a3d2-a2bd6525ef03)
 ![c1_3_bug_fixed](https://github.com/vyomasystems-lab/riscv-ctb-challenge-ShwetaKiranTotla/assets/109335487/c1b62ee3-24f1-4936-9d00-de8817e613c4)
