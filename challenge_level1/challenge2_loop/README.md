@@ -3,7 +3,7 @@ The test runs without exiting in spike.
 The reason the code runs into an infinte loop is due to the absence of a logic that ends the code after completion of the 3 test cases.  
 This test performs addition operations and self checks for 3 set of test cases.  
 
-# Bug Screenshots
+# Bug Screenshot
 ![c2_1_bug](https://github.com/vyomasystems-lab/riscv-ctb-challenge-ShwetaKiranTotla/assets/109335487/398eaea8-b6a2-4909-aad4-436c944261c3)
 
 # Explaination of the fix
